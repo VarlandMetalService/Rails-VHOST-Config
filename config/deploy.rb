@@ -4,7 +4,7 @@ lock "3.9.0"
 set :application, "Rails-VHOST-Config"
 set :repo_url, "https://github.com/VarlandMetalService/Rails-VHOST-Config.git"
 
-set :deploy_to, '/home/vcms/Rails-VHOST-Config'
+set :deploy_to, '/home/vms/Rails-VHOST-Config'
 
 #append :linked_files, "config/database.yml", "config/secrets.yml"
 append :linked_dirs, "log", "tmp/pids", "tmp/cache", "tmp/sockets", "vendor/bundle", "public/system", "public/uploads"
